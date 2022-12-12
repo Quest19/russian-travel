@@ -8,4 +8,6 @@
 
 При создании использовались Flexbox, CSS Grid, а также относительные значения шириныю
 
+### Cсылкf на GitHub Pages
 
+https://quest19.github.io/russian-travel/index.html
