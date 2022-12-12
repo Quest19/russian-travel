@@ -6,13 +6,6 @@
   padding-bottom: 24px;
 }
 
-.footer ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-
 @media screen and (max-width: 768px) {
   .footer {
     width: calc(100% - 48px);
@@ -22,14 +15,6 @@
 @media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
-  }
-
-  .footer ul {
-    flex-direction: column;
-  }
-
-  .footer li:not(:last-child) {
-    padding-bottom: 32px;
   }
 }
 

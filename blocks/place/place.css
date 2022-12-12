@@ -10,17 +10,6 @@
   margin-bottom: 80px;
 }
 
-.place ul {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.place li:not(:last-child) .place__paragraph{
-  padding-bottom: 26px;
-}
-
 @media screen and (max-width: 1024px){
   .place {
     grid-template-columns: minmax(288px, 440px) minmax(288px, 456px);
@@ -36,10 +25,6 @@
 
   .place:not(:last-child) {
     margin-bottom: 73px;
-  }
-
-  .place li:not(:last-child) .place__paragraph{
-    padding-bottom: 25px;
   }
 }
 

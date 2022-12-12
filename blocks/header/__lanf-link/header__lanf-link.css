@@ -5,11 +5,20 @@
   line-height: 28px;
   padding-bottom: 6px;
   color: #ffff;
+  transition: 0.5s linear;
+}
+
+.header__lanf-link:hover {
+  opacity: 0.8;
+}
+
+.header__lanf-link:last-child {
+  padding-left: 18px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
   .header__lanf-link {
-    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     padding-bottom: 8px;

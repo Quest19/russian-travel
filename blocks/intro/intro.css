@@ -1,12 +1,6 @@
 .intro {
-  width: 690px;
+  max-width: 690px;
   margin-left: 148px;
-}
-
-.intro ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 @media screen and (max-width: 1024px){
@@ -17,13 +11,13 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: calc(100% - 32px);
+    max-width: calc(100% - 32px);
   }
 }
