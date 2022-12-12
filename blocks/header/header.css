@@ -1,0 +1,39 @@
+.header {
+  width: calc(100% - 96px);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul> li:last-child .header__lanf-link{
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px){
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% - 32px);
+    padding-top: 16px;
+  }
+}
