@@ -1,4 +1,4 @@
-.cover__link {
+.cover__overlay {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -10,26 +10,26 @@
   transition: 0.5s;
 }
 
-.cover__link:hover {
+.cover__overlay:hover {
   background-color: rgba(16, 17, 18, 0.8);
 }
 
 @media screen and (max-width: 1024px){
-  .cover__link {
+  .cover__overlay {
     padding-top: 195px;
     padding-bottom: 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cover__link {
+  .cover__overlay {
     padding-top: 115px;
     padding-bottom: 115px;
   }
 }
 
 @media screen and (max-width: 320px) { 
-  .cover__link {
+  .cover__overlay {
     padding-top: 33px;
     padding-bottom: 33px;
   }
