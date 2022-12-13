@@ -10,4 +10,4 @@
 
 ### Cсылкf на GitHub Pages
 
-https://quest19.github.io/russian-travel/index.html
+https://quest19.github.io/russian-travel/
