@@ -1,0 +1,46 @@
+.place {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
+}
+
+.place:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px){
+  .place {
+    grid-template-columns: minmax(288px, 440px) minmax(288px, 456px);
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(50px, 340px) minmax(50px, 352px);
+    gap: 48px 28px;
+  }
+
+  .place:not(:last-child) {
+    margin-bottom: 73px;
+  }
+}
+
+/* Уменьшим кол-во колонок в сетке */
+@media screen and (max-width: 500px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    gap: 32px;
+  }
+
+  .place:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
