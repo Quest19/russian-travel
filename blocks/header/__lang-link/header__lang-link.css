@@ -1,4 +1,4 @@
-.header__lanf-link {
+.header__lang-link {
   display: block;
   font-weight: 400;
   font-size: 24px;
@@ -8,17 +8,17 @@
   transition: 0.5s linear;
 }
 
-.header__lanf-link:hover {
+.header__lang-link:hover {
   opacity: 0.8;
 }
 
-.header__lanf-link:last-child {
+.header__lang-link:last-child {
   padding-left: 18px;
   text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
-  .header__lanf-link {
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
     padding-bottom: 8px;

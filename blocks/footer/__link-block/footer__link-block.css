@@ -5,9 +5,8 @@
   margin: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 660px) {
   .footer__link-block {
     flex-direction: column;
-    
   }
 }
